@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Sohne Bold";
+    src: url(assets/fonts/Söhne-Halbfett.woff2);
+  }
+
+@font-face {
+    font-family: "Sohne Mono";
+    src: url(assets/fonts/SöhneMono-Buch.woff2);
+  }
+
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote,
+body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog,
+div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form,
+header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark,
+menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s,
+samp, section, small, span, strike, strong, sub, summary, sup, table, tbody,
+td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    color: #fff;
+    text-decoration: none;
+    }    
+
+h1, h2, h3, h4, h5, h6 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-weight : normal;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body, html {
+  background: #000;
+  color: #fff;
+  font-family: "Sohne Bold", "Helvetica", "Arial", sans-serif;
+  z-index: 1;
+  cursor: default;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    grid-template-rows: 33.333% 33.333% 5%;
+    margin-top: 10.333%;
+    margin-left: 19.333%;
+    margin-bottom: 10%;
+}
+
+.grid-item {
+    height: 33.33vh;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+s
+h1{
+    font-size: 18px;
+}
+
+h2{
+    font-family: "Sohne Mono", Monospace;
+    font-size: 18px;
+    text-indent: 30px;
+}
+
+
+h4{
+    font-family: "Sohne Mono", Monospace;
+    font-size: 18px;
+}
+
+.sub-first, .sub-two, .sub-three, .sub-four, .sub-five, .sub-six{
+    opacity: 0;
+    z-index: 1000;
+    transition: opacity 0.5s linear;
+    -webkit-transition: opacity 0.3s linear;
+    -moz-transition: opacity 0.3s linear;
+}
+
+#roro:hover~.sub-first{
+    opacity: 1;
+
+}
+
+#rua:hover~.sub-two{
+    opacity: 1;
+
+}
+
+#con:hover~.sub-three{
+    opacity: 1;
+
+}
+
+#addy:hover~.sub-four{
+    opacity: 1;
+
+}
+
+
+
+#pu:hover~.sub-five{
+    opacity: 1;
+
+}
+
+#te:hover~.sub-six{
+    opacity: 1;
+
+}
+
+
+
