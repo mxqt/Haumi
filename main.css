@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+
 body, html {
   background: #000;
   color: #fff;
@@ -65,57 +66,67 @@ a{
 
 
 h1{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 h2{
     font-family: "Sohne Mono", Monospace;
-    font-size: 18px;
+    font-size: 16px;
     text-indent: 30px;
 }
 
 
 h4{
     font-family: "Sohne Mono", Monospace;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .sub-first, .sub-two, .sub-three, .sub-four, .sub-five, .sub-six{
+    display: none;
     opacity: 0;
     z-index: 1000;
     transition: opacity 0.5s linear;
     -webkit-transition: opacity 0.3s linear;
     -moz-transition: opacity 0.3s linear;
-}
-
-#roro:hover~.sub-first{
-    opacity: 1;
-
-}
-
-#rua:hover~.sub-two{
-    opacity: 1;
-
-}
-
-#con:hover~.sub-three{
-    opacity: 1;
-
-}
-
-#addy:hover~.sub-four{
-    opacity: 1;
-
+    background-color: #000;
+    width: auto;
+    height: auto;
 }
 
 
-#pu:hover~.sub-five{
+#roro:hover + .sub-first, .sub-first:hover{
     opacity: 1;
+    display:block;
 
 }
 
-#te:hover~.sub-six{
+#rua:hover + .sub-two, .sub-two:hover{
     opacity: 1;
+    display:block;
+
+}
+
+#con:hover + .sub-three, .sub-three:hover{
+    opacity: 1;
+    display:block;
+
+}
+
+#addy:hover + .sub-four, .sub-four:hover{
+    opacity: 1;
+    display:block;
+}
+
+
+#pu:hover + .sub-five, .sub-five:hover{
+    opacity: 1;
+    display:block;
+
+}
+
+#te:hover + .sub-six, .sub-six:hover{
+    opacity: 1;
+    display:block;
 
 }
 
