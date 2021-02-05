@@ -1,11 +1,16 @@
 @media only screen and (max-width: 768px) {
 
     .grid-container{
-        margin-left: 50px;
-        margin-top: 50px;
+        margin-top: 3%;
+        margin-left: 0;
+        width: 99%;
+        height: 130%;
     }
     
     h2{
         text-indent: 0px;
     }
-}
+
+    body, html {
+        text-align: center;
+} 

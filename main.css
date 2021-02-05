@@ -40,7 +40,7 @@ body, html {
   color: #fff;
   font-family: 'Sohne-Bold', Helvetica, Arial, sans-serif;
   font-weight: 800;
-  font-style: normal;
+  font-style: bold;
   z-index: 1;
   cursor: default;
   width: 100%;
@@ -55,7 +55,8 @@ body, html {
     grid-template-columns: 33.333% 33.333% 33.333%;
     grid-template-rows: 33.333% 33.333% 5%;
     margin-top: 10.333%;
-    margin-left: 19.333%;
+    margin-left: 20vw;
+    width: 80%;
 }
 
 .grid-item {
@@ -85,27 +86,25 @@ h4{
 }
 
 .sub-first, .sub-two, .sub-three, .sub-four, .sub-five, .sub-six{
-    display: none;
     opacity: 0;
     z-index: 1000;
     transition: opacity 0.5s linear;
     -webkit-transition: opacity 0.3s linear;
     -moz-transition: opacity 0.3s linear;
-    background-color: #000;
     width: auto;
     height: auto;
 }
 
 
-#roro:hover + .sub-first, .sub-first:hover{
+#roro:hover~.sub-first{
     opacity: 1;
-    display:block;
+
 
 }
 
-#rua:hover + .sub-two, .sub-two:hover{
+#rua:hover~.sub-two{
     opacity: 1;
-    display:block;
+  
 
 }
 
@@ -120,15 +119,15 @@ h4{
 }
 
 
-#pu:hover + .sub-five, .sub-five:hover{
+#pu:hover~.sub-five{
     opacity: 1;
-    display:block;
+
 
 }
 
-#te:hover + .sub-six, .sub-six:hover{
+#te:hover~.sub-six{
     opacity: 1;
-    display:block;
+  
 
 }
 
