@@ -1,10 +1,10 @@
 @font-face {
-    font-family:"Sohne-Bold";
+    font-family: 'Sohne-Bold';
     src: url("assets/fonts/Söhne-Halbfett.otf");
   }
 
 @font-face {
-    font-family:"Sohne-Mono";
+    font-family: 'Sohne-Mono';
     src: url("assets/fonts/SöhneMono-Buch.otf");
   }
 
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 body, html {
   background: #000;
   color: #fff;
-  font-family: "Sohne-Bold";
+  font-family: 'Sohne-Bold', Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-style: normal;
   z-index: 1;
@@ -73,14 +73,14 @@ h1{
 }
 
 h2{
-    font-family: "Sohne-Mono";
+    font-family: 'Sohne-Mono', 'Courier New', Courier, monospace;
     font-size: 16px;
     text-indent: 30px;
 }
 
 
 h4{
-    font-family: "Sohne-Mono";
+    font-family: 'Sohne-Mono', 'Courier New', Courier, monospace;
     font-size: 16px;
 }
 
