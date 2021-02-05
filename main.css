@@ -96,36 +96,39 @@ h4{
 }
 
 
-#roro:hover~.sub-first #roro:active{
+#roro:hover~.sub-first{
     opacity: 1;
-
-
 }
 
-#rua:hover~.sub-two #rua:active{
+#rua:hover~.sub-two{
     opacity: 1;
   
-
 }
 
-#con:hover + .sub-three, .sub-three:hover, #con:active{
+#con:hover + .sub-three, .sub-three:hover{ 
     opacity: 1;
     display:block;
 }
 
-#addy:hover + .sub-four, .sub-four:hover #addy:active{
+#con:active, #roro:active, #addy:active, #pu:active, #te:active{
+
+    opacity: 1;
+    display:block;
+}
+
+#addy:hover + .sub-four, .sub-four:hover{
     opacity: 1;
     display:block;
 }
 
 
-#pu:hover~.sub-five #pu:active{
+#pu:hover~.sub-five{
     opacity: 1;
 
 
 }
 
-#te:hover~.sub-six #te:active{
+#te:hover~.sub-six{
     opacity: 1;
   
 
