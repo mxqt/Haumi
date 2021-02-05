@@ -132,3 +132,101 @@ h4{
 
 }
 
+/* .grid-container {
+    position: relative;    
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+
+@keyframes example {
+   from {opacity: 0;}
+   to {opacity: 1;}
+} */
+
+
+.con {
+    position: relative;
+    animation-name: contact;
+    animation-duration: 4s;
+}
+
+@keyframes contact {
+    0%   {opacity:0; left:100%; top:0px;}
+    48% {opacity:1; left:0px; top:0px;}
+
+ }
+
+
+ .teroro {
+    position: relative;
+    animation-name: Teroro;
+    animation-duration: 4s;
+}
+
+@keyframes Teroro {
+    0%   {opacity:0; top:100%;}
+    48%  {opacity:0; left:0; top:100%;}
+    100%  {opacity:1; left:0px; top:0px;}
+ }
+
+ .puwaha {
+    position: relative;
+    animation-name: puwaha;
+    animation-duration: 4s;
+}
+
+@keyframes puwaha {
+    0%   {opacity:0; margin-top:-86%;}
+    48%  {opacity:0; margin-top:-86%;}
+    100% {opacity:1; margin-top:0px;}
+ }
+
+ .ruawhetu {
+    position: relative;
+    animation-name: ruawhetu;
+    animation-duration: 4s;
+}
+
+@keyframes ruawhetu {
+    0%   {opacity:0; top:100%;}
+    48%  {opacity:0; top:100%;}
+    100%  {opacity:1; top:0px;}
+ }
+
+ .addy {
+    position: relative;
+    animation-name: addy;
+    animation-duration: 4s;
+}
+
+@keyframes addy{
+    0%   {opacity:0; right:100%; top:0px;}
+    48% {opacity:1; right:0px; top:0px;}
+
+ }
+ 
+ .tetu {
+    position: relative;
+    animation-name: tetu;
+    animation-duration: 4s;
+}
+
+@keyframes tetu {
+    0%   {opacity:0; margin-top:-86%;}
+    48%  {opacity:0; margin-top:-86%;}
+    100% {opacity:1; margin-top:0px;}
+ }
+
+
+.haumi {
+    position: relative;
+    animation-name: haumi;
+    animation-duration: 4s;
+}
+
+@keyframes haumi {
+    0%   {opacity:0;}
+    100% {opacity:1;}
+ }
+
