@@ -166,7 +166,7 @@ h4{
 
 @keyframes Teroro {
     0%   {opacity:0; top:100%;}
-    48%  {opacity:0; left:0; top:100%;}
+    47%  {opacity:0; left:0; top:100%;}
     100%  {opacity:1; left:0px; top:0px;}
  }
 
@@ -178,7 +178,7 @@ h4{
 
 @keyframes puwaha {
     0%   {opacity:0; margin-top:-86%;}
-    48%  {opacity:0; margin-top:-86%;}
+    46%  {opacity:0; margin-top:-86%;}
     100% {opacity:1; margin-top:0px;}
  }
 
@@ -190,7 +190,7 @@ h4{
 
 @keyframes ruawhetu {
     0%   {opacity:0; top:100%;}
-    48%  {opacity:0; top:100%;}
+    47%  {opacity:0; top:100%;}
     100%  {opacity:1; top:0px;}
  }
 
@@ -214,7 +214,7 @@ h4{
 
 @keyframes tetu {
     0%   {opacity:0; margin-top:-86%;}
-    48%  {opacity:0; margin-top:-86%;}
+    47%  {opacity:0; margin-top:-86%;}
     100% {opacity:1; margin-top:0px;}
  }
 
