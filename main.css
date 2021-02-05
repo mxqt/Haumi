@@ -110,8 +110,7 @@ h4{
     display:block;
 }
 
-#con:active, #roro:active, #addy:active, #pu:active, #te:active{
-
+#con:focus, #roro:focus, #addy:focus, #pu:focus, #te:focus{
     opacity: 1;
     display:block;
 }
