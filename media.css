@@ -5,6 +5,7 @@
         margin-left: 0;
         width: 99%;
         height: 120%;
+        grid-template-columns: 40% 20% 40%;
     }
     
     h2{
@@ -18,8 +19,6 @@
     h2 {
         margin-left: 5vw;
     }
-
-
 
     @keyframes puwaha {
         0%   {opacity:0; margin-top:-200%;}
@@ -35,7 +34,7 @@
     }
 
     h1, h2, h4 {
-        font-size: 13px;
+        font-size: 12spx;
     }
 
 
