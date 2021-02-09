@@ -1,9 +1,6 @@
-$(document).ready(function(){
-
-document.addEventListener("touched, function(event){
-    
-$('#roro'+ divId).on("touchstart", function() {
-
-}
-
-}s
+$(document).ready(function() {
+    $('.hover').on('touchstart touchend', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('hover_effect');
+    });
+});
