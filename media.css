@@ -11,10 +11,12 @@
         text-indent: 0px;
     }
 
-    body, html {
+    h1 {
         text-align: center;
 
     }
+
+
 
     @keyframes puwaha {
         0%   {opacity:0; margin-top:-200%;}
