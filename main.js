@@ -1,1 +1,1 @@
-$('body').on('touchstart', function() {});
+$('#addy').on('touchstart', function() {});
