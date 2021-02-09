@@ -94,12 +94,12 @@ h4{
 }
 
 
-#roro:hover~.sub-first, #roro.hover_effect{
+#roro:hover + .sub-first, #roro.hover_effect{
     opacity: 1;
 }
 
 
-#rua:hover~.sub-two{
+#rua:hover + .sub-two{
     opacity: 1;
   
 }
@@ -116,12 +116,12 @@ h4{
 }
 
 
-#pu:hover~.sub-five, #pu.hover_effect {
+#pu:hover + .sub-five, #pu.hover_effect {
     opacity: 1;
 
 }
 
-#te:hover~.sub-six, #te.hover_effect{
+#te:hover + .sub-six, #te.hover_effect{
     opacity: 1;
   
 
