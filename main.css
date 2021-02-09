@@ -94,42 +94,34 @@ h4{
 }
 
 
-#roro:hover~.sub-first{
+#roro:hover~.sub-first, #roro.hover_effect{
     opacity: 1;
 }
 
-#roro:hover, element.hover_effect {
-    rule: properties;
-}
 
 #rua:hover~.sub-two{
     opacity: 1;
   
 }
 
-#con:hover + .sub-three, .sub-three:hover{ 
-    opacity: 1;
-    display:block;
-}
-
-#con:focus, #roro:focus, #addy:focus, #pu:focus, #te:focus{
-    opacity: 1;
-    display:block;
-}
-
-#addy:hover + .sub-four, .sub-four:hover{
+#con:hover + .sub-three, .sub-three:hover, #con.hover_effect { 
     opacity: 1;
     display:block;
 }
 
 
-#pu:hover~.sub-five{
+#addy:hover + .sub-four, .sub-four:hover, #addy.hover_effect{
     opacity: 1;
+    display:block;
+}
 
+
+#pu:hover~.sub-five, #pu.hover_effect {
+    opacity: 1;
 
 }
 
-#te:hover~.sub-six{
+#te:hover~.sub-six, #te.hover_effect{
     opacity: 1;
   
 
