@@ -82,23 +82,31 @@ a{
 
 
 h1{
+    font-family: 'Sohne-bold', sans-serif;
     font-size: 16px;
+    
 }
 
 h2{
-    font-family: 'Sohne-Mono-reg', monospace;
+    font-family: 'Sohne-reg', monospace;
     font-size: 16px;
     text-indent: 30px;
 }
 
 h3{
     font-family: 'Sohne-bold', sans-serif;
+    font-size: 16px;
 }
 
-
 h4{
+    font-family: 'Sohne-Mono-bold', monospace;
+    font-size: 16px;
+}
+
+h5{
     font-family: 'Sohne-Mono-reg', monospace;
     font-size: 16px;
+    text-indent: 30px;
 }
 
 .sub-first, .sub-two, .sub-three, .sub-four, .sub-five, .sub-six{
@@ -170,8 +178,8 @@ h4{
 }
 
 @keyframes Teroro {
-    0%   {opacity:0; top:100%;}
-    47%  {opacity:0; left:0; top:100%;}
+    0%   {opacity:0; top:33vh;}
+    48%  {opacity:0; left:0; top:33vh;}
     100%  {opacity:1; left:0px; top:0px;}
  }
 
@@ -183,7 +191,7 @@ h4{
 
 @keyframes puwaha {
     0%   {opacity:0; margin-top:-33vh;}
-    46%  {opacity:0; margin-top:-33vh;}
+    48%  {opacity:0; margin-top:-33vh;}
     80% {opacity:1; margin-top:0px;}
  }
 
@@ -194,8 +202,8 @@ h4{
 }
 
 @keyframes ruawhetu {
-    0%   {opacity:0; top:100%;}
-    47%  {opacity:0; top:100%;}
+    0%   {opacity:0; top:33vh;}
+    48%  {opacity:0; top:33vh;}
     100%  {opacity:1; top:0px;}
  }
 
@@ -220,7 +228,7 @@ h4{
 
 @keyframes tetu {
     0%   {opacity:0; margin-top:-33vh;}
-    46%  {opacity:0; margin-top:-33vh;}
+    48%  {opacity:0; margin-top:-33vh;}
     80% {opacity:1; margin-top:0px;}
  }
 
