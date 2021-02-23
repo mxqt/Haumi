@@ -106,8 +106,8 @@ h4{
     opacity: 0;
     z-index: 1000;
     transition: opacity 0.5s linear;
-    -webkit-transition: opacity 0.3s linear;
-    -moz-transition: opacity 0.3s linear;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
     width: auto;
     height: auto;
 }
@@ -161,7 +161,7 @@ h4{
 
 @keyframes contact {
     0%   {opacity:0; left:25vw; top:0px;}
-    48% {opacity:0.5; left:0px; top:0px;}
+    50% {opacity:0.5; left:0px; top:0px;}
     100% {opacity:1; left:0px; top:0px;}
 
  }
@@ -188,7 +188,7 @@ h4{
 @keyframes puwaha {
     0%   {opacity:0; margin-top:-33vh;}
     46%  {opacity:0; margin-top:-33vh;}
-    100% {opacity:1; margin-top:0px;}
+    80% {opacity:1; margin-top:0px;}
  }
 
  .ruawhetu {
@@ -225,7 +225,7 @@ h4{
 @keyframes tetu {
     0%   {opacity:0; margin-top:-33vh;}
     46%  {opacity:0; margin-top:-33vh;}
-    100% {opacity:1; margin-top:0px;}
+    80% {opacity:1; margin-top:0px;}
  }
 
 
@@ -237,6 +237,6 @@ h4{
 
 @keyframes haumi {
     0%   {opacity:0;}
-    48% {opacity:1;}
+    50% {opacity:1;}
  }
 
