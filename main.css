@@ -24,7 +24,6 @@
   }
 
 
-
 a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote,
 body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog,
 div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form,
@@ -137,13 +136,10 @@ h4{
 
 #pu:hover + .sub-five, #pu.hover_effect {
     opacity: 1;
-
 }
 
 #te:hover + .sub-six, #te.hover_effect{
     opacity: 1;
-  
-
 }
 
 
