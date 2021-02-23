@@ -161,7 +161,8 @@ h4{
 
 @keyframes contact {
     0%   {opacity:0; left:25vw; top:0px;}
-    48% {opacity:1; left:0px; top:0px;}
+    48% {opacity:0.5; left:0px; top:0px;}
+    100% {opacity:1; left:0px; top:0px;}
 
  }
 
@@ -210,7 +211,8 @@ h4{
 
 @keyframes addy{
     0%   {opacity:0; right:25vw; top:0px;}
-    48% {opacity:1; right:0px; top:0px;}
+    48% {opacity:0.5; right:0px; top:0px;}
+    80% {opacity:1; right:0px; top:0px;}
 
  }
  
@@ -235,6 +237,6 @@ h4{
 
 @keyframes haumi {
     0%   {opacity:0;}
-    100% {opacity:1;}
+    48% {opacity:1;}
  }
 
