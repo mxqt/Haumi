@@ -21,15 +21,15 @@
     }
 
     @keyframes puwaha {
-        0%   {opacity:0; margin-top:-45vh;}
-        46%  {opacity:0; margin-top:-45vh;}
+        0%   {opacity:0; margin-top:-33.33vh;}
+        46%  {opacity:0; margin-top:-33.33vh;}
         100% {opacity:1; margin-top:0px;}
      }
 
 
     @keyframes tetu {
-        0%   {opacity:0; margin-top:-45vh;}
-        47%  {opacity:0; margin-top:-45vh;}
+        0%   {opacity:0; margin-top:-33.33vh;}
+        47%  {opacity:0; margin-top:-33.33vh;}
         100% {opacity:1; margin-top:0px;}
     }
 
