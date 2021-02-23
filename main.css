@@ -1,13 +1,30 @@
 @font-face {
-    font-family: 'Sohne-Bold';
-    src: url("/assets/fonts/Soene-Halbfett.otf");
+    font-family: 'Sohne-Reg';
+    src: url("assets/fonts/soehne-web-buch.woff") format("woff");
+    src: url("assets/fonts/soehne-web-buch.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: 'Sohne-bold';
+    src: url("assets/fonts/soehne-web-halbfett.woff") format("woff");
+    src: url("assets/fonts/soehne-web-halbfett.woff2") format("woff2");
   }
 
 @font-face {
-    font-family: 'Sohne-Mono';
-    src: url("/assets/fonts/SoehneMono-Buch.otf");
+    font-family: 'Sohne-Mono-reg';
+    src: url("assets/fonts/soehne-mono-web-buch.woff") format("woff");
+    src: url("assets/fonts/soehne-mono-web-buch.eot") format("woff2");
+}
+
+
+@font-face {
+    font-family: 'Sohne-Mono-bold';
+    src: url("assets/fonts/soehne-mono-web-halbfett.woff") format("woff");
+    src: url("assets/fonts/soehne-mono-web-halbfett.woff2") format("woff2");
   }
-s
+
+
+
 a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote,
 body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog,
 div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form,
@@ -36,9 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 body, html {
   background: #000;
   color: #fff;
-  font-family: 'Sohne-Bold', Helvetica, Arial, sans-serif;
-  font-weight: 800;
-  font-style: bold;
+  font-family: 'Sohne-reg', sans-serif;
   z-index: 1;
   cursor: default;
   width: 100%;
@@ -72,14 +87,18 @@ h1{
 }
 
 h2{
-    font-family: 'Sohne-Mono', 'Courier New', Courier, monospace;
+    font-family: 'Sohne-Mono-reg', monospace;
     font-size: 16px;
     text-indent: 30px;
 }
 
+h3{
+    font-family: 'Sohne-bold', sans-serif;
+}
+
 
 h4{
-    font-family: 'Sohne-Mono', 'Courier New', Courier, monospace;
+    font-family: 'Sohne-Mono-reg', monospace;
     font-size: 16px;
 }
 
