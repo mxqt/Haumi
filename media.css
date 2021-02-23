@@ -5,23 +5,23 @@
         margin-left: 0;
         width: 99%;
         height: 120%;
-        grid-template-columns: 40% 20% 40%;
+        grid-template-columns: 45% 10% 45%;
     }
     
     h2{
         text-indent: 0px;
     }
 
-    h1, h4{
+    h1, h3, h4{
         text-align: center;
     }
 
     h2 {
-        margin-left: 5vw;
+        margin-left: 8vw;
     }
 
     @keyframes puwaha {
-        0%   {opacity:0; margin-top:-200%;}
+        0%   {opacity:0; margin-top:-100vw;}
         46%  {opacity:0; margin-top:-200%;}
         100% {opacity:1; margin-top:0px;}
      }
@@ -34,7 +34,7 @@
     }
 
     h1, h2, h4 {
-        font-size: 12spx;
+        font-size: 10px;
     }
 
 
