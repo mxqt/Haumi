@@ -67,7 +67,7 @@ body, html {
     display: grid;
     grid-template-columns: 33.333% 33.333% 33.333%;
     grid-template-rows: 33.333% 33.333% 5%;
-    margin-top: 10.333%;
+    margin-top: 15vh;
     margin-left: 20vw;
     width: 80%;
 }
