@@ -139,6 +139,7 @@ h5{
 #addy:hover + .sub-four, .sub-four:hover, #addy.hover_effect{
     opacity: 1;
     display:block;
+  
 }
 
 
@@ -155,6 +156,7 @@ h5{
     -webkit-user-select: none;
     -webkit-touch-callout: none;        
     }
+
 
 
 .con {
@@ -243,3 +245,7 @@ h5{
     50% {opacity:1;}
  }
 
+a:hover {
+    text-decoration: underline;
+   
+}
