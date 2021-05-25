@@ -1,4 +1,4 @@
-var one = 'Haumi —'; 
+var one = 'Haumi'; 
 var two = 'Haumi ē! Hui ē! Tāiki ē!'; 
 var speed = '1000'; 
 

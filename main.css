@@ -65,14 +65,11 @@ body, html {
     z-index: 100;
     display: grid;
     grid-template-columns: 33.333% 33.333% 33.333%;
-    grid-template-rows: 33.333% 33.333% 5%;
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-left: 10vw;
-    width: 80%;
-    padding: 50px;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    z-index: 10000000;
+    padding: 50px;
 }
 
 .grid-item {
